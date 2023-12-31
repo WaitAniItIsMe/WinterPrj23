@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>hist and geo</title>
+  </head>
+  
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color-dark: rgb(224, 198, 169);
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #f5e6c5;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: rgb(240, 235, 225);
+  margin-bottom: 2rem;
+}
+
+.action__btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btn button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid rgb(109, 19, 19);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.return {
+  color: var(--primary-color);
+  
+}
+
+.return:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+
+  border-radius: 6%;
+width: 450px; 
+height: 498px; 
+object-fit: cover;
+object-position: 14% 25%; 
+box-shadow: 0px 5px 90px rgb(110, 14, 14);
+}
+  </style>
+
+
+  <body background="abstract.jpg"> 
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+
+          <h1 class="title">
+            History<span> & </span>Geography
+          </h1>
+          <p class="description">
+            Murshidabad, situated in West Bengal, India, has a compelling history and geography which has helped shape its identity throughout the ages. Serving as the final capital of independent Bengal before British colonial rule, the city was founded in the 17th century by Murshid Quli Khan, the viceroy appointed by the Mughal Emperor Akbar.It emerged as a significant hub for trade, administration, and culture, thanks to its strategic location along the Bhagirathi River. 
+            <br>
+            The Battle of Plassey in 1757, a pivotal moment in Indian history, unfolded in this region, leading to British dominance. Murshidabad's architectural heritage, including landmarks like Hazarduari Palace and Katra Masjid, reflects the influences of both Mughal and colonial periods. 
+             <br>
+             Geographically, Murshidabad lies between 23º43'N and 24º52'N latitude and 87º49'E and 88º44'E longitude and is defined by the fertile Gangetic plains, enhancing its agricultural importance. The region's cultural richness is apparent in its festivals, crafts, and culinary traditions, making Murshidabad a captivating fusion of historical and geographical elements that continues to enchant visitors.
+
+          </p>
+          <div class="action__btn">
+            <a href="index.html">
+            <button class="return" style="color: #6b7280;">Home</button>
+          </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="Screenshot 2023-12-30 204117.png" alt="profile" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

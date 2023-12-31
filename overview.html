@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>trip overview</title>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color-dark: rgb(224, 198, 169);
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #f5e6c5;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: smaller;
+}
+
+
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.action__btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btn button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid rgb(109, 19, 19);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.return {
+  color: var(--primary-color);
+  
+}
+
+.return:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+
+  border-radius: 6%;
+width: 450px; 
+height: 498px; 
+object-fit: cover;
+object-position: 14% 25%; 
+box-shadow: 0px 5px 90px rgb(115, 75, 224);
+}
+  </style>
+
+
+  <body background="silky-gradient-peach-background_53876-114863.jpg"> 
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+
+          <h1 class="title">
+            Trip <span>Overview</span>
+          </h1>
+          <br>
+          <p class="description">
+            <span style="color: rgb(31, 31, 31); font-size: larger;">S</span>tudents from the '28 batch, accompanied by teachers and tour guides Mr. Shambhu and Milan, embarked on a 5:45 am journey on November 7th, boarding four buses. the people inside had an extremely fun time playing verbal and card games and jamming to music. After an almost 7 hour long journey, they reached 'The Fame hotel', on kalikapur road, berhampore, from where, after a very quick lunch, they left for Motijhil Park.
+            After a 7-hour ride, they arrived at 'The Fame Hotel' on Kalikapur Road, Berhampore. Despite the disappointment of the unexpected cancellation of the light and sound show at Motijhil Park, the evening was spent bonding. Dinner at 8 preceded a 9 pm curfew.
+            <br>
+            <span style="color: rgb(31, 31, 31); font-size: larger;">T</span>he second day was a rather hectic one. Everyone left the hotel after breakfast at 8 and headed to katra mosque, from where they went to hazarduari, kathgola palace and house of jagat seth.  An energetic dance event in the hotel's banquet hall marked the evening, concluding with a 9 pm curfew.
+            <br>
+            <span style="color: rgb(31, 31, 31); font-size: larger;">O</span>n the third day, the group boarded buses for the return journey to school. The atmosphere was quieter, with more sleep and less music and games along NH12. The buses reached The Heritage School, where eager guardians awaited the return of their wards after an eventful three-day trip.
+            <br>
+            <br>
+          Exploring the historical landmarks of Murshidabad, particularly the Hazarduari Palace transformed into a museum, ignited a fresh curiosity within me. This experience deepened my interest in the history of the British colonial era. The visit to Murshidabad served the dual purpose of not only fostering curiosity but also aiding students in completing of their winter projects.
+          </p>
+          <div class="action__btn">
+            <a href="index.html">
+            <button class="return" style="color: #6b7280;">Home</button>
+          </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="8b.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
